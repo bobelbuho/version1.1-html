@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+    <!-- Style -->
+    <link rel="stylesheet" href="css/style.css">
+
+  <title>Jeppey</title>
+</head>
+
+<body>
+
+  <!-----------------BARRE DE NAVIGATION----------->
+  <div class="site-mobile-menu">
+    <div class="site-mobile-menu-header">
+      <div class="site-mobile-menu-close mt-3">
+        <span class="icon-close2 js-menu-toggle"></span>
+      </div>
+    </div>
+    <div class="site-mobile-menu-body"></div>
+  </div>
+  
+  <header class="site-navbar" role="banner">
+
+    <div class="container">
+      <div class="row align-items-center">
+        
+        <div class="col-11 col-xl-2">
+          <h1 class="mb-0 site-logo"><a href="index.html" class="text-white mb-0"> <img src="./images/logo.png"> Jeppey</a></h1>
+        </div>
+        <div class="col-12 col-md-10 d-none d-xl-block">
+          <nav class="site-navigation position-relative text-right" role="navigation">
+
+            <ul class="site-menu js-clone-nav mr-auto d-none d-lg-block">
+              <li class="active"><a href="index.html"><span>Rechercher</span></a></li>
+              <li><a href="listings.html"><span>Publier un trajet</span></a></li>
+              <li class="has-children">
+                <a href="about.html"><span>Profil</span></a>
+                <ul class="dropdown arrow-top">
+                  <li><a href="#">Vos trajets</a></li>
+                  <li><a href="#">Messages</a></li>
+                  <li><a href="#">Profil</a></li>
+                  <li><a href="#">Déconnexion</a></li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+
+        <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle text-white"><span class="icon-menu h3"></span></a></div>
+
+        </div>
+
+      </div>
+    </div>
+    
+  </header>
+
+
+
+  <!----------------- FIN BARRE DE NAVIGATION----------->
+
+  <div class="section sec-form-search py-0 bg-light">
+    <div class="container">
+    <div class="row">
+    <div class="col-lg-12">
+    <div class="form row aos-init aos-animate" data-aos="fade-up">
+    <div class="col-lg-3">
+    <div class="input-icon-wrap">
+    <span class="icon-calendar"></span>
+    <input type="text" class="form-control flatpickr-input" id="arrival" placeholder="Date Arrival" readonly="readonly">
+    </div>
+    </div>
+    <div class="col-lg-3">
+    <div class="input-icon-wrap">
+    <span class="icon-calendar"></span>
+    <input type="text" class="form-control flatpickr-input" id="departure" placeholder="Date Departure" readonly="readonly">
+    </div>
+    </div>
+    <div class="col-lg-3">
+    <div class="input-icon-wrap">
+    <span class="icon-person"></span>
+    <select name="" id="number-of-person" class="form-control">
+    <option value="">Nombre de kilos</option>
+    <option value="">1</option>
+    <option value="">2</option>
+    <option value="">3</option>
+    <option value="">4</option>
+    <option value="">5+</option>
+    </select>
+    </div>
+    </div>
+    <div class="col-lg-3">
+    <button class="btn btn-primary btn-block w-100">Find now <span class=""></span></button>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+
+
+  <!-------------------Script-->
+  <script src="script.js"></script>
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.sticky.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
